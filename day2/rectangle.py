@@ -1,0 +1,6 @@
+lenth=int(input("enter lenth"))
+width=int(input("enter width"))
+area=(lenth*width)
+perimeter=(2*(lenth+width))
+print(area)
+print(perimeter)
