@@ -1,0 +1,5 @@
+n = int(input("enter the number of elements in the list"))
+arr = map(int, input().split())
+mylist=list(set(arr))
+mylist.sort()
+print(mylist[-2])
